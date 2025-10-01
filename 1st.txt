@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insane Gaming App</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            /* Background image with dark overlay */
+            background: 
+                linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('https://i.ibb.co/Z8hvZpC/ben10-ultimate-alien.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+        #mainContent {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            margin-top: 20px;
+            cursor: pointer;
+            border: none;
+            border-radius: 10px;
+            background-color: #FF0000;
+            color: white;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #00AAFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 16px;
+            margin-top: 30px;
+        }
+        footer {
+            position: fixed;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+<div id="mainContent">
+    <h1>Subscribe to Insane Gaming</h1>
+    <button onclick="goToChannel()">Subscribe</button>
+
+    <h2>Download Your File</h2>
+    <a class="download-btn" href="https://www.mediafire.com/file/roiqt0vj6w64x7k/InsaneGamingMediafireApp.zip/file" target="_blank">Download Now</a>
+</div>
+
+<footer>Credit: Insane Gaming</footer>
+
+<script>
+    function goToChannel() {
+        window.open('https://youtube.com/@insane_gaming0?si=EygBrL6P_Cecull1', '_blank');
+    }
+</script>
+
+</body>
+</html>
